@@ -2,7 +2,7 @@
     {
       "product_id": 1,
       "product_title": "Gaming Laptop",
-      "product_image": "gaming_laptop.jpg",
+      "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Laptops",
       "price": 1200,
       "description": "A high-performance gaming laptop with a powerful GPU.",
@@ -17,7 +17,7 @@
     {
       "product_id": 2,
       "product_title": "Ultrabook Laptop",
-      "product_image": "ultrabook_laptop.jpg",
+      "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Laptops",
       "price": 950,
       "description": "A lightweight and slim ultrabook for everyday tasks.",
@@ -32,7 +32,7 @@
     {
       "product_id": 3,
       "product_title": "Budget Laptop",
-      "product_image": "budget_laptop.jpg",
+      "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Laptops",
       "price": 550,
       "description": "An affordable laptop with reliable performance.",
@@ -47,7 +47,7 @@
     {
       "product_id": 4,
       "product_title": "Convertible Laptop",
-      "product_image": "convertible_laptop.jpg",
+      "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Laptops",
       "price": 1050,
       "description": "A versatile 2-in-1 laptop with touch screen capability.",
@@ -62,7 +62,7 @@
     {
       "product_id": 5,
       "product_title": "Premium Business Laptop",
-      "product_image": "business_laptop.jpg",
+      "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Laptops",
       "price": 1500,
       "description": "A laptop built for productivity and multitasking.",
@@ -77,7 +77,7 @@
     {
       "product_id": 6,
       "product_title": "Student Laptop",
-      "product_image": "student_laptop.jpg",
+      "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Laptops",
       "price": 700,
       "description": "A laptop designed for students with long battery life.",
@@ -92,7 +92,7 @@
     {
       "product_id": 7,
       "product_title": "Flagship Android Phone",
-      "product_image": "android_phone.jpg",
+      "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Phones",
       "price": 899,
       "description": "A cutting-edge Android smartphone with exceptional camera quality.",
@@ -107,7 +107,7 @@
     {
       "product_id": 8,
       "product_title": "Budget Android Phone",
-      "product_image": "budget_android.jpg",
+      "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Phones",
       "price": 499,
       "description": "An affordable Android smartphone with reliable performance.",
@@ -122,7 +122,7 @@
     {
       "product_id": 9,
       "product_title": "Wireless Headphones",
-      "product_image": "wireless_headphones.jpg",
+      "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Accessories",
       "price": 150,
       "description": "Premium wireless headphones with noise cancellation.",
@@ -137,7 +137,7 @@
     {
       "product_id": 10,
       "product_title": "Gaming Mouse",
-      "product_image": "gaming_mouse.jpg",
+      "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Accessories",
       "price": 75,
       "description": "A high-precision gaming mouse with customizable buttons.",

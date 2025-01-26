@@ -8,8 +8,14 @@
 .AccentText {
     color: #9538E2;
 }
+.AccentBorder {
+    border: 1.5px solid #9538E2;
+}
 .BlackText {
     color: #09080F;
+}
+.GrayText {
+    color: rgba(9, 8, 15, 0.60);
 }
 .TransparentBg {
     background: rgba(255, 255, 255, 0.30);
