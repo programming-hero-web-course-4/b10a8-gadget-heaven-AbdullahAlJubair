@@ -1,0 +1,153 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Gaming Laptop",
+      "product_image": "gaming_laptop.jpg",
+      "category": "Laptops",
+      "price": 1200,
+      "description": "A high-performance gaming laptop with a powerful GPU.",
+      "Specification": [
+        {"key": "Processor", "value": "Intel i7"},
+        {"key": "RAM", "value": "16GB"},
+        {"key": "Storage", "value": "1TB SSD"}
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 2,
+      "product_title": "Ultrabook Laptop",
+      "product_image": "ultrabook_laptop.jpg",
+      "category": "Laptops",
+      "price": 950,
+      "description": "A lightweight and slim ultrabook for everyday tasks.",
+      "Specification": [
+        {"key": "Processor", "value": "Intel i5"},
+        {"key": "RAM", "value": "8GB"},
+        {"key": "Storage", "value": "512GB SSD"}
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 3,
+      "product_title": "Budget Laptop",
+      "product_image": "budget_laptop.jpg",
+      "category": "Laptops",
+      "price": 550,
+      "description": "An affordable laptop with reliable performance.",
+      "Specification": [
+        {"key": "Processor", "value": "Intel i3"},
+        {"key": "RAM", "value": "4GB"},
+        {"key": "Storage", "value": "256GB SSD"}
+      ],
+      "availability": true,
+      "rating": 4.2
+    },
+    {
+      "product_id": 4,
+      "product_title": "Convertible Laptop",
+      "product_image": "convertible_laptop.jpg",
+      "category": "Laptops",
+      "price": 1050,
+      "description": "A versatile 2-in-1 laptop with touch screen capability.",
+      "Specification": [
+        {"key": "Processor", "value": "Intel i5"},
+        {"key": "RAM", "value": "8GB"},
+        {"key": "Storage", "value": "512GB SSD"}
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 5,
+      "product_title": "Premium Business Laptop",
+      "product_image": "business_laptop.jpg",
+      "category": "Laptops",
+      "price": 1500,
+      "description": "A laptop built for productivity and multitasking.",
+      "Specification": [
+        {"key": "Processor", "value": "Intel i9"},
+        {"key": "RAM", "value": "16GB"},
+        {"key": "Storage", "value": "1TB SSD"}
+      ],
+      "availability": false,
+      "rating": 4.7
+    },
+    {
+      "product_id": 6,
+      "product_title": "Student Laptop",
+      "product_image": "student_laptop.jpg",
+      "category": "Laptops",
+      "price": 700,
+      "description": "A laptop designed for students with long battery life.",
+      "Specification": [
+        {"key": "Processor", "value": "Intel i3"},
+        {"key": "RAM", "value": "8GB"},
+        {"key": "Storage", "value": "256GB SSD"}
+      ],
+      "availability": true,
+      "rating": 4.3
+    },
+    {
+      "product_id": 7,
+      "product_title": "Flagship Android Phone",
+      "product_image": "android_phone.jpg",
+      "category": "Phones",
+      "price": 899,
+      "description": "A cutting-edge Android smartphone with exceptional camera quality.",
+      "Specification": [
+        {"key": "Screen", "value": "6.7-inch AMOLED"},
+        {"key": "Camera", "value": "108 MP"},
+        {"key": "Battery", "value": "5000mAh"}
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 8,
+      "product_title": "Budget Android Phone",
+      "product_image": "budget_android.jpg",
+      "category": "Phones",
+      "price": 499,
+      "description": "An affordable Android smartphone with reliable performance.",
+      "Specification": [
+        {"key": "Screen", "value": "6.1-inch LCD"},
+        {"key": "Camera", "value": "12 MP"},
+        {"key": "Battery", "value": "4000mAh"}
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 9,
+      "product_title": "Wireless Headphones",
+      "product_image": "wireless_headphones.jpg",
+      "category": "Accessories",
+      "price": 150,
+      "description": "Premium wireless headphones with noise cancellation.",
+      "Specification": [
+        {"key": "Connectivity", "value": "Bluetooth 5.0"},
+        {"key": "Battery Life", "value": "20 hours"},
+        {"key": "Weight", "value": "250g"}
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 10,
+      "product_title": "Gaming Mouse",
+      "product_image": "gaming_mouse.jpg",
+      "category": "Accessories",
+      "price": 75,
+      "description": "A high-precision gaming mouse with customizable buttons.",
+      "Specification": [
+        {"key": "DPI", "value": "16000"},
+        {"key": "Connectivity", "value": "Wired"},
+        {"key": "Buttons", "value": "8 programmable"}
+      ],
+      "availability": false,
+      "rating": 4.5
+    }
+  ]
+  

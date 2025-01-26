@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+.Accent {
+    background-color: #9538E2;
+}
+.AccentText {
+    color: #9538E2;
+}
+.BlackText {
+    color: #09080F;
+}
+.TransparentBg {
+    background: rgba(255, 255, 255, 0.30);
+
+}
+
+.Sora {
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+}
