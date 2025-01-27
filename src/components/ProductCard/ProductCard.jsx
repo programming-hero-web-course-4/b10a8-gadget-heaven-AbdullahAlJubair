@@ -22,7 +22,7 @@ const ProductCard = ({ product, handleRemoveProduct }) => {
                 </div>
             </div>
             {/* Remove Button */}
-            <button onClick={() => handleRemoveProduct(product_id)} className="cursor-pointer">
+            <button onClick={() => handleRemoveProduct(product_id, price)} className="cursor-pointer">
                 <CiCircleRemove className="text-2xl md:text-4xl text-red-600" />
             </button>
         </div>
