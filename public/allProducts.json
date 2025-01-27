@@ -6,7 +6,7 @@
       "category": "Laptops",
       "price": 1200,
       "description": "A high-performance gaming laptop with a powerful GPU.",
-      "Specification": [
+      "specification": [
         {"key": "Processor", "value": "Intel i7"},
         {"key": "RAM", "value": "16GB"},
         {"key": "Storage", "value": "1TB SSD"}
@@ -21,7 +21,7 @@
       "category": "Laptops",
       "price": 950,
       "description": "A lightweight and slim ultrabook for everyday tasks.",
-      "Specification": [
+      "specification": [
         {"key": "Processor", "value": "Intel i5"},
         {"key": "RAM", "value": "8GB"},
         {"key": "Storage", "value": "512GB SSD"}
@@ -36,7 +36,7 @@
       "category": "Laptops",
       "price": 550,
       "description": "An affordable laptop with reliable performance.",
-      "Specification": [
+      "specification": [
         {"key": "Processor", "value": "Intel i3"},
         {"key": "RAM", "value": "4GB"},
         {"key": "Storage", "value": "256GB SSD"}
@@ -51,7 +51,7 @@
       "category": "Laptops",
       "price": 1050,
       "description": "A versatile 2-in-1 laptop with touch screen capability.",
-      "Specification": [
+      "specification": [
         {"key": "Processor", "value": "Intel i5"},
         {"key": "RAM", "value": "8GB"},
         {"key": "Storage", "value": "512GB SSD"}
@@ -66,7 +66,7 @@
       "category": "Laptops",
       "price": 1500,
       "description": "A laptop built for productivity and multitasking.",
-      "Specification": [
+      "specification": [
         {"key": "Processor", "value": "Intel i9"},
         {"key": "RAM", "value": "16GB"},
         {"key": "Storage", "value": "1TB SSD"}
@@ -81,7 +81,7 @@
       "category": "Laptops",
       "price": 700,
       "description": "A laptop designed for students with long battery life.",
-      "Specification": [
+      "specification": [
         {"key": "Processor", "value": "Intel i3"},
         {"key": "RAM", "value": "8GB"},
         {"key": "Storage", "value": "256GB SSD"}
@@ -96,7 +96,7 @@
       "category": "Phones",
       "price": 899,
       "description": "A cutting-edge Android smartphone with exceptional camera quality.",
-      "Specification": [
+      "specification": [
         {"key": "Screen", "value": "6.7-inch AMOLED"},
         {"key": "Camera", "value": "108 MP"},
         {"key": "Battery", "value": "5000mAh"}
@@ -111,7 +111,7 @@
       "category": "Phones",
       "price": 499,
       "description": "An affordable Android smartphone with reliable performance.",
-      "Specification": [
+      "specification": [
         {"key": "Screen", "value": "6.1-inch LCD"},
         {"key": "Camera", "value": "12 MP"},
         {"key": "Battery", "value": "4000mAh"}
@@ -126,7 +126,7 @@
       "category": "Accessories",
       "price": 150,
       "description": "Premium wireless headphones with noise cancellation.",
-      "Specification": [
+      "specification": [
         {"key": "Connectivity", "value": "Bluetooth 5.0"},
         {"key": "Battery Life", "value": "20 hours"},
         {"key": "Weight", "value": "250g"}
@@ -141,7 +141,7 @@
       "category": "Accessories",
       "price": 75,
       "description": "A high-precision gaming mouse with customizable buttons.",
-      "Specification": [
+      "specification": [
         {"key": "DPI", "value": "16000"},
         {"key": "Connectivity", "value": "Wired"},
         {"key": "Buttons", "value": "8 programmable"}

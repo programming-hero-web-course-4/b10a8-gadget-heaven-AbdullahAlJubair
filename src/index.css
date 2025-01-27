@@ -5,22 +5,51 @@
 .Accent {
     background-color: #9538E2;
 }
+
 .AccentText {
     color: #9538E2;
 }
+
 .AccentBorder {
     border: 1.5px solid #9538E2;
 }
+
 .BlackText {
     color: #09080F;
 }
+
 .GrayText {
     color: rgba(9, 8, 15, 0.60);
 }
+
+.PriceText {
+    color: rgba(9, 8, 15, 0.80);
+}
+
 .TransparentBg {
     background: rgba(255, 255, 255, 0.30);
-
 }
+
+.inStock {
+    display: inline-block;
+    color: #309C08;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 14px;
+    border-radius: 32px;
+    border: 1px solid #309C08;
+    background: rgba(48, 156, 8, 0.10);
+}
+.outOfStock {
+    display: inline-block;
+    color: #FF0000;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 7px 14px;
+    border-radius: 32px;
+    border: 1px solid #FF0000;
+    background: rgba(255, 0, 0, 0.1);
+  }
 
 .Sora {
     font-family: "Sora", serif;
