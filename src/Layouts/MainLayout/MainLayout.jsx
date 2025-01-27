@@ -7,7 +7,7 @@ const MainLayout = () => {
     const [amount, setAmount] = useState(0);
     return (
         <>
-            <main className="max-w-[1250px] mx-auto mt-1 lg:mt-2 Sora rounded-xl md:rounded-t-2xl overflow-hidden">
+            <main className="max-w-[1250px] mx-auto mt-0 lg:mt-1.5 Sora rounded-none lg:rounded-t-2xl overflow-hidden">
                 <AmountContext.Provider value={[amount, setAmount]}>
                     <NavBar></NavBar>
                     <Outlet></Outlet>

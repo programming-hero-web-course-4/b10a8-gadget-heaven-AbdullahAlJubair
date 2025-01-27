@@ -15,7 +15,7 @@ const ProductDetails = () => {
     }, [allProducts, id])
     return (
         <div>
-            <div className="Accent pt-8 pb-60 rounded-b-2xl">
+            <div className="Accent pt-2 md:pt-8 pb-60 rounded-b-2xl">
                 <PageHeader
                     title={'Product Details'}
                     subTitle={'Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!'}></PageHeader>

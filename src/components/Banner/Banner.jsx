@@ -2,7 +2,7 @@ import HeroImg from '../../assets/banner.jpg'
 const Banner = () => {
     return (
         <section className="">
-            <div className="Accent Sora rounded-b-2xl flex flex-col items-center text-center pt-2 md:pt-12 pb-20 md:pb-56 px-1.5">
+            <div className="Accent Sora rounded-b-lg lg:rounded-b-2xl flex flex-col items-center text-center pt-2 md:pt-12 pb-20 md:pb-56 px-1.5">
                 <div className="max-w-[1100px] mx-auto">
                     <h1 className="text-3xl md:text-5xl lg:text-[56px] leading-10 md:leading-14 lg:leading-18 text-white font-bold mb-6">Upgrade Your Tech Accessorize <br className='hidden lg:block' /> with <br className='block lg:hidden' /> Gadget Heaven</h1>
 
