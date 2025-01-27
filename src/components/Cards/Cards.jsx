@@ -5,15 +5,12 @@ const Cards = () => {
     const { category } = useParams();
     const allProducts = useLoaderData();
     const [products, setProducts] = useState([]);
-
     useEffect(() => {
         if (category) {
             const filterByCategory = [...allProducts].filter(product => product.category === category )
             setProducts(filterByCategory);
-            console.log(filterByCategory);
         }
         else {
-
             setProducts(allProducts);
         }
     }, [allProducts, category])

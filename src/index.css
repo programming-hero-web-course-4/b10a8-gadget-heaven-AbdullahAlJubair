@@ -2,6 +2,11 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+.Sora {
+    font-family: "Sora", serif;
+    font-optical-sizing: auto;
+}
+
 .Accent {
     background-color: #9538E2;
 }
@@ -31,27 +36,19 @@
 }
 
 .inStock {
-    display: inline-block;
     color: #309C08;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 7px 14px;
-    border-radius: 32px;
-    border: 1px solid #309C08;
+    border-color: #309C08;
     background: rgba(48, 156, 8, 0.10);
 }
-.outOfStock {
-    display: inline-block;
-    color: #FF0000;
-    font-size: 14px;
-    font-weight: 500;
-    padding: 7px 14px;
-    border-radius: 32px;
-    border: 1px solid #FF0000;
-    background: rgba(255, 0, 0, 0.1);
-  }
 
-.Sora {
-    font-family: "Sora", serif;
-    font-optical-sizing: auto;
+.outOfStock {
+    color: #FF0000;
+    border-color: #FF0000;
+    background: rgba(255, 0, 0, 0.1);
+}
+
+.PurchaseBtn {
+    border-radius: 32px;
+    background: linear-gradient(90deg, #8020C7, #BF55ED, #B95CEA, #973EE0);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
 }

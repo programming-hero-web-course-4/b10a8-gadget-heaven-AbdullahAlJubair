@@ -1,11 +1,11 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { AiOutlineShoppingCart, AiOutlineHeart  } from "react-icons/ai";
 const NavBar = () => {
     return (
         <div className="navbar Accent Sora py-5 px-2 md:px-5 lg:px-10">
             <div className="navbar-start w-full">
                 <div className="dropdown">
-                    <div tabIndex={0} role="button" className="btn bg-transparent border-0 shadow-none">
+                    <div tabIndex={0} role="button" className="btn bg-transparent border-0 shadow-none lg:hidden">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="h-5 w-5"
@@ -27,7 +27,7 @@ const NavBar = () => {
                         <NavLink className={({isActive})=> isActive ? 'font-bold' : ''} to={'/dashboard'}> Dashboard</NavLink>
                     </ul>
                 </div>
-                <a className="text-lg md:text-xl text-white font-semibold md:font-bold w-full">Gadget Heaven</a>
+                <Link to={'/'} className="text-lg md:text-xl text-white font-semibold md:font-bold w-full">Gadget Heaven</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 gap-x-10 text-base text-white">
@@ -37,8 +37,8 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end gap-x-2 md:gap-x-4">
-                <div className=" p-2 md:p-2.5 text-base bg-white rounded-full"><AiOutlineShoppingCart /></div>
-                <div className=" p-2 md:p-2.5 text-base bg-white rounded-full"><AiOutlineHeart /></div>
+                <div className=" p-2 md:p-2.5 text-base bg-white rounded-full cursor-pointer"><AiOutlineShoppingCart /></div>
+                <div className=" p-2 md:p-2.5 text-base bg-white rounded-full cursor-pointer"><AiOutlineHeart /></div>
                 
                 
             </div>

@@ -5,6 +5,8 @@ import Statistics from "../pages/Statistics/Statistics";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import Cards from "../components/Cards/Cards";
 import ProductDetails from "../components/ProductDetails/ProductDetails";
+import MyCart from "../components/MyCart/MyCart";
+import MyWishList from "../components/MyWishList/MyWishList";
 
 
 const routes = createBrowserRouter([
@@ -19,12 +21,12 @@ const routes = createBrowserRouter([
         children: [
           {
             path: "/",
-            element: <Cards></Cards>,
+            element: <Cards />,
             loader: () => fetch('../allProducts.json')
           },
           {
             path: "/category/:category",
-            element: <Cards></Cards>,
+            element: <Cards />,
             loader: () => fetch('../allProducts.json')
           },
         ]
@@ -35,7 +37,19 @@ const routes = createBrowserRouter([
       },
       {
         path: "/dashboard",
-        element: <Dashboard />
+        element: <Dashboard />,
+        children: [
+          {
+            path: "/dashboard",
+            element: <MyCart />,
+            loader: () => fetch('../allProducts.json'),
+          },
+          {
+            path: "/dashboard/wishlist",
+            element: <MyWishList />,
+            loader: () => fetch('../allProducts.json'),
+          },
+        ]
       },
       {
         path: "/product/:id",

@@ -1,7 +1,16 @@
+import { Outlet } from "react-router-dom";
+import PageHeader from "../../components/PageHeader/PageHeader";
+
 const Dashboard = () => {
     return (
         <div>
-            <p>This is Dashboard</p>
+            <div className="Accent py-8">
+                <PageHeader
+                    title={'Dashboard'}
+                    subTitle={'Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!'}>
+                </PageHeader>
+            </div>
+            <Outlet></Outlet>
         </div>
     );
 };
