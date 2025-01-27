@@ -4,7 +4,7 @@
       "product_title": "Gaming Laptop",
       "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Laptops",
-      "price": 1200,
+      "price": 120,
       "description": "A high-performance gaming laptop with a powerful GPU.",
       "specification": [
         {"key": "Processor", "value": "Intel i7"},
@@ -94,7 +94,7 @@
       "product_title": "Flagship Android Phone",
       "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Phones",
-      "price": 899,
+      "price": 89,
       "description": "A cutting-edge Android smartphone with exceptional camera quality.",
       "specification": [
         {"key": "Screen", "value": "6.7-inch AMOLED"},
@@ -139,7 +139,7 @@
       "product_title": "Gaming Mouse",
       "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Accessories",
-      "price": 75,
+      "price": 375,
       "description": "A high-precision gaming mouse with customizable buttons.",
       "specification": [
         {"key": "DPI", "value": "16000"},

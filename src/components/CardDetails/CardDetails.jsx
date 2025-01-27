@@ -8,12 +8,12 @@ import { AmountContext } from "../../Layouts/MainLayout/MainLayout";
 const CardDetails = ({ product }) => {
     const [amount, setAmount] = useContext(AmountContext);
     const { product_id, product_title, product_image, price, description, specification, availability, rating } = product;
-    const handleAddToCart = (id, price)=> {
-        if(price > 1000) {
-            return alert('Price is too high');
-        }else if ((amount + price) > 1000) {
-            return alert('Max Amount Exceed');
-        }else{
+    const handleAddToCart = (id, price) => {
+        if (price > 1000) {
+            if ((amount + price) > 1000) {
+                return alert('Max Amount Exceed');
+            }
+        } else {
             addToLSCart(id);
             setAmount(amount + price);
         }
@@ -51,7 +51,7 @@ const CardDetails = ({ product }) => {
                     }
                 </div>
                 <div className="flex items-center gap-x-4">
-                    <button onClick={()=>handleAddToCart(product_id, price)} className="Accent flex gap-x-2.5 items-center cursor-pointer px-6 py-2.5 rounded-4xl text-base md:text-lg text-white font-bold">Add to Cart <AiOutlineShoppingCart className="text-xl md:text-2xl" /></button>
+                    <button onClick={() => handleAddToCart(product_id, price)} className="Accent flex gap-x-2.5 items-center cursor-pointer px-6 py-2.5 rounded-4xl text-base md:text-lg text-white font-bold">Add to Cart <AiOutlineShoppingCart className="text-xl md:text-2xl" /></button>
 
                     <button className="border border-base-300 p-3 hover:bg-base-300 rounded-full cursor-pointer"><AiOutlineHeart className="text-xl md:text-2xl text-[#3A3A3A]" /></button>
                 </div>
