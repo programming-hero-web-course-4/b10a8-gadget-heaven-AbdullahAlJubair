@@ -1,4 +1,4 @@
-import { createBrowserRouter, } from "react-router-dom";
+import { createBrowserRouter, Navigate, } from "react-router-dom";
 import MainLayout from "../Layouts/MainLayout/MainLayout";
 import Home from "../pages/Home/Home";
 import Statistics from "../pages/Statistics/Statistics";
@@ -7,12 +7,14 @@ import Cards from "../components/Cards/Cards";
 import ProductDetails from "../components/ProductDetails/ProductDetails";
 import MyCart from "../components/MyCart/MyCart";
 import MyWishList from "../components/MyWishList/MyWishList";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
 
 
 const routes = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
@@ -22,12 +24,12 @@ const routes = createBrowserRouter([
           {
             path: "/",
             element: <Cards />,
-            loader: () => fetch('../allProducts.json')
+            loader: () => fetch('../allProducts.json'),
           },
           {
             path: "/category/:category",
             element: <Cards />,
-            loader: () => fetch('../allProducts.json')
+            loader: () => fetch('../allProducts.json'),
           },
         ]
       },
@@ -40,12 +42,16 @@ const routes = createBrowserRouter([
         element: <Dashboard />,
         children: [
           {
-            path: "/dashboard",
+            index: true, 
+            element: <Navigate to="cart" replace />,
+          },
+          {
+            path: "cart",
             element: <MyCart />,
             loader: () => fetch('../allProducts.json'),
           },
           {
-            path: "/dashboard/wishlist",
+            path: "wishlist",
             element: <MyWishList />,
             loader: () => fetch('../allProducts.json'),
           },

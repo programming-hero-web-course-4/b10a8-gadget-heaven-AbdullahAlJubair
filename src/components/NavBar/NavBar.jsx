@@ -3,7 +3,6 @@ import { AiOutlineShoppingCart, AiOutlineHeart } from "react-icons/ai";
 const NavBar = () => {
     const location = useLocation();
     const pathName = location.pathname;
-    console.log(pathName);
     return (
         <div className={`${pathName === '/' ? 'Accent' : 'bg-[#f6f6f6]'} navbar Sora py-5 px-2 md:px-5 lg:px-10`}>
             {/* <div className="Accent navbar Sora py-5 px-2 md:px-5 lg:px-10"> */}

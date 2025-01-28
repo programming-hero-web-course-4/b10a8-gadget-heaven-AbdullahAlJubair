@@ -2,21 +2,35 @@ import PropTypes from "prop-types";
 import ReactStars from "react-stars";
 import { AiOutlineShoppingCart, AiOutlineHeart } from "react-icons/ai";
 import { addToLSCart } from "../../utilities/utilities";
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { AmountContext } from "../../Layouts/MainLayout/MainLayout";
+import { addToLSWishlist, getLSWishlistData } from "../../utilities/wishlist";
 
 const CardDetails = ({ product }) => {
     const [amount, setAmount] = useContext(AmountContext);
+    const [wishlist, setWishlist] = useState([]);
     const { product_id, product_title, product_image, price, description, specification, availability, rating } = product;
+
+    // Use Effect for get Wishlist Data
+    useEffect(() => {
+        const isAdded = getLSWishlistData();
+        setWishlist(isAdded);
+    }, [])
+
+    // Add to Cart Func
     const handleAddToCart = (id, price) => {
-        if (price > 1000) {
-            if ((amount + price) > 1000) {
-                return alert('Max Amount Exceed');
-            }
+        if ((amount + price) > 1000) {
+            return alert('Max Amount Exceed');
         } else {
             addToLSCart(id);
             setAmount(amount + price);
         }
+    }
+
+    // Add to Wishlist Func
+    const handleAddToWishlist = (id) => {
+        addToLSWishlist(id);
+        setWishlist(getLSWishlistData());
     }
     return (
         <div className="flex flex-col lg:flex-row gap-8 p-3 md:p-8 m-2 md:m-8 bg-white rounded-2xl">
@@ -51,9 +65,9 @@ const CardDetails = ({ product }) => {
                     }
                 </div>
                 <div className="flex items-center gap-x-4">
-                    <button onClick={() => handleAddToCart(product_id, price)} className="Accent flex gap-x-2.5 items-center cursor-pointer px-6 py-2.5 rounded-4xl text-base md:text-lg text-white font-bold">Add to Cart <AiOutlineShoppingCart className="text-xl md:text-2xl" /></button>
+                    <button onClick={() => handleAddToCart(product_id, price)} className={`${availability ? 'Accent cursor-pointer text-white py-2.5' : 'btn btn-disabled py-6'} flex gap-x-2.5 items-center px-6 rounded-4xl text-base md:text-lg font-bold`}>Add to Cart <AiOutlineShoppingCart className="text-xl md:text-2xl" /></button>
 
-                    <button className="border border-base-300 p-3 hover:bg-base-300 rounded-full cursor-pointer"><AiOutlineHeart className="text-xl md:text-2xl text-[#3A3A3A]" /></button>
+                    <button onClick={() => handleAddToWishlist(product_id)} className={`${wishlist.includes(product_id) ? 'btn btn-disabled px-3 py-6' : ' p-3 border border-base-300 hover:bg-base-300 cursor-pointer'} rounded-full`}><AiOutlineHeart className={`${wishlist.includes(product_id ? '' : 'text-[#3A3A3A]')} text-xl md:text-2xl`} /></button>
                 </div>
 
             </div>

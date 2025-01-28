@@ -4,7 +4,7 @@
       "product_title": "Gaming Laptop",
       "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Laptops",
-      "price": 120,
+      "price": 500,
       "description": "A high-performance gaming laptop with a powerful GPU.",
       "specification": [
         {"key": "Processor", "value": "Intel i7"},
@@ -19,7 +19,7 @@
       "product_title": "Ultrabook Laptop",
       "product_image": "../src/assets/s24-ultra.jpg",
       "category": "Laptops",
-      "price": 950,
+      "price": 499,
       "description": "A lightweight and slim ultrabook for everyday tasks.",
       "specification": [
         {"key": "Processor", "value": "Intel i5"},

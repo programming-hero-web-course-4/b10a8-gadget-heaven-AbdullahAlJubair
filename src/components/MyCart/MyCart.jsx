@@ -11,20 +11,30 @@ const MyCart = () => {
     const allProducts = useLoaderData();
     const [products, setProducts] = useState([]);
     const [purchaseAmount, setPurchaseAmount] = useState();
-
     useEffect(() => {
         const cartId = getLSCartData();
-        const cartItems = [...allProducts].filter(product => [...cartId].includes(product.product_id));
+        let cartItems = [];
+        cartId.forEach(id => {
+            const checkProduct = [...allProducts].filter( item => item.product_id === id )
+            if( checkProduct.length > 0 ){
+                cartItems.push( checkProduct[0] )
+            }
+        })
         setProducts(cartItems);
         const localStorageAmount = cartItems.reduce((prevAmount, product) => prevAmount + product.price, 0);
         setAmount(localStorageAmount);
     }, [allProducts, setAmount]);
 
-
     const handleRemoveProduct = (id, price) => {
-        deleteLSCart(id, allProducts);
+        deleteLSCart(id);
         const cartId = getLSCartData()
-        const cartItems = [...allProducts].filter(product => [...cartId].includes(product.product_id));
+        let cartItems = [];
+        cartId.forEach(id => {
+            const checkProduct = [...allProducts].filter( item => item.product_id === id )
+            if( checkProduct.length > 0 ){
+                cartItems.push( checkProduct[0] )
+            }
+        })
         setProducts(cartItems);
         setAmount(amount - price);
     }
@@ -32,8 +42,6 @@ const MyCart = () => {
     const handleSortByPrice = () => {
         const sortByPrice = [...products].sort((a, b) => b.price - a.price);
         setProducts(sortByPrice);
-        console.log('sorted', sortByPrice);
-        console.log(products);
     }
 
     const handlePurchase = () => {
@@ -64,7 +72,7 @@ const MyCart = () => {
             </div>
             <div className="space-y-2 md:space-y-6">
                 {
-                    products ? products.map((product, idx) => <ProductCard key={idx} product={product} handleRemoveProduct={handleRemoveProduct}></ProductCard>) : ''
+                    products ? products.map((product, idx) => <ProductCard key={idx} product={product} handleRemove={handleRemoveProduct} hasAddToCart={false}></ProductCard>) : ''
                 }
             </div>
 
@@ -81,7 +89,6 @@ const MyCart = () => {
 
                     <div className="modal-action">
                         <form method="dialog">
-                            {/* if there is a button in form, it will close the modal */}
                             <Link to={'/'}><button className="btn bg-base-300 px-12">Close</button></Link>
                         </form>
                     </div>
