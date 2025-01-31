@@ -2,7 +2,7 @@
   {
     "product_id": 1,
     "product_title": "Asus ROG Gaming Laptop",
-    "product_image": "https://i.ibb.co.com/5gc2n87t/Asus-ROG-Gaming-Laptop.png",
+    "product_image": "https://i.ibb.co.com/Q7W92NZ0/Asus-ROG-Gaming-Laptop.png",
     "category": "Laptops",
     "price": 700,
     "description": "A high-performance gaming laptop with a powerful GPU.",
@@ -191,5 +191,35 @@
     ],
     "availability": true,
     "rating": 4.7
-  }
+  },
+  {
+    "product_id": 14,
+    "product_title": "Dell XPS 15 Laptop",
+    "product_image": "https://i.ibb.co.com/7JFZB9Xk/Dell-XPS-15-Laptop.jpg",
+    "category": "Laptops",
+    "price": 1200,
+    "description": "A premium laptop with stunning 4K display and excellent build quality.",
+    "specification": [
+      {"key": "Processor", "value": "Intel i9"},
+      {"key": "RAM", "value": "32GB"},
+      {"key": "Storage", "value": "1TB SSD"}
+    ],
+    "availability": true,
+    "rating": 4.9
+},
+{
+    "product_id": 15,
+    "product_title": "HP Spectre x360",
+    "product_image": "https://i.ibb.co.com/HWzGnHS/HP-Spectre-x360.jpg",
+    "category": "Laptops",
+    "price": 950,
+    "description": "A versatile 2-in-1 laptop with ultra-thin design and long battery life.",
+    "specification": [
+      {"key": "Processor", "value": "Intel i7"},
+      {"key": "RAM", "value": "16GB"},
+      {"key": "Storage", "value": "512GB SSD"}
+    ],
+    "availability": true,
+    "rating": 4.7
+}
 ]

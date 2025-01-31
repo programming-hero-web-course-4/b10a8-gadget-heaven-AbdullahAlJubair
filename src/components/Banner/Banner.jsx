@@ -13,7 +13,7 @@ const Banner = () => {
                 </div>
 
                 <Link to={'/dashboard'}>
-                    <button className="text-lg md:text-xl font-bold AccentText bg-white rounded-4xl px-6 md:px-8 py-2 md:py-4 mb-12">Shop Now</button>
+                    <button className="text-lg md:text-xl font-bold AccentText bg-white rounded-4xl px-6 md:px-8 py-2 md:py-4 mb-12 cursor-pointer">Shop Now</button>
                 </Link>
 
             </div>
