@@ -1,153 +1,195 @@
 [
-    {
-      "product_id": 1,
-      "product_title": "Gaming Laptop",
-      "product_image": "../src/assets/s24-ultra.jpg",
-      "category": "Laptops",
-      "price": 500,
-      "description": "A high-performance gaming laptop with a powerful GPU.",
-      "specification": [
-        {"key": "Processor", "value": "Intel i7"},
-        {"key": "RAM", "value": "16GB"},
-        {"key": "Storage", "value": "1TB SSD"}
-      ],
-      "availability": true,
-      "rating": 4.8
-    },
-    {
-      "product_id": 2,
-      "product_title": "Ultrabook Laptop",
-      "product_image": "../src/assets/s24-ultra.jpg",
-      "category": "Laptops",
-      "price": 499,
-      "description": "A lightweight and slim ultrabook for everyday tasks.",
-      "specification": [
-        {"key": "Processor", "value": "Intel i5"},
-        {"key": "RAM", "value": "8GB"},
-        {"key": "Storage", "value": "512GB SSD"}
-      ],
-      "availability": true,
-      "rating": 4.5
-    },
-    {
-      "product_id": 3,
-      "product_title": "Budget Laptop",
-      "product_image": "../src/assets/s24-ultra.jpg",
-      "category": "Laptops",
-      "price": 550,
-      "description": "An affordable laptop with reliable performance.",
-      "specification": [
-        {"key": "Processor", "value": "Intel i3"},
-        {"key": "RAM", "value": "4GB"},
-        {"key": "Storage", "value": "256GB SSD"}
-      ],
-      "availability": true,
-      "rating": 4.2
-    },
-    {
-      "product_id": 4,
-      "product_title": "Convertible Laptop",
-      "product_image": "../src/assets/s24-ultra.jpg",
-      "category": "Laptops",
-      "price": 1050,
-      "description": "A versatile 2-in-1 laptop with touch screen capability.",
-      "specification": [
-        {"key": "Processor", "value": "Intel i5"},
-        {"key": "RAM", "value": "8GB"},
-        {"key": "Storage", "value": "512GB SSD"}
-      ],
-      "availability": true,
-      "rating": 4.6
-    },
-    {
-      "product_id": 5,
-      "product_title": "Premium Business Laptop",
-      "product_image": "../src/assets/s24-ultra.jpg",
-      "category": "Laptops",
-      "price": 1500,
-      "description": "A laptop built for productivity and multitasking.",
-      "specification": [
-        {"key": "Processor", "value": "Intel i9"},
-        {"key": "RAM", "value": "16GB"},
-        {"key": "Storage", "value": "1TB SSD"}
-      ],
-      "availability": false,
-      "rating": 4.7
-    },
-    {
-      "product_id": 6,
-      "product_title": "Student Laptop",
-      "product_image": "../src/assets/s24-ultra.jpg",
-      "category": "Laptops",
-      "price": 700,
-      "description": "A laptop designed for students with long battery life.",
-      "specification": [
-        {"key": "Processor", "value": "Intel i3"},
-        {"key": "RAM", "value": "8GB"},
-        {"key": "Storage", "value": "256GB SSD"}
-      ],
-      "availability": true,
-      "rating": 4.3
-    },
-    {
-      "product_id": 7,
-      "product_title": "Flagship Android Phone",
-      "product_image": "../src/assets/s24-ultra.jpg",
-      "category": "Phones",
-      "price": 89,
-      "description": "A cutting-edge Android smartphone with exceptional camera quality.",
-      "specification": [
-        {"key": "Screen", "value": "6.7-inch AMOLED"},
-        {"key": "Camera", "value": "108 MP"},
-        {"key": "Battery", "value": "5000mAh"}
-      ],
-      "availability": true,
-      "rating": 4.9
-    },
-    {
-      "product_id": 8,
-      "product_title": "Budget Android Phone",
-      "product_image": "../src/assets/s24-ultra.jpg",
-      "category": "Phones",
-      "price": 499,
-      "description": "An affordable Android smartphone with reliable performance.",
-      "specification": [
-        {"key": "Screen", "value": "6.1-inch LCD"},
-        {"key": "Camera", "value": "12 MP"},
-        {"key": "Battery", "value": "4000mAh"}
-      ],
-      "availability": true,
-      "rating": 4.4
-    },
-    {
-      "product_id": 9,
-      "product_title": "Wireless Headphones",
-      "product_image": "../src/assets/s24-ultra.jpg",
-      "category": "Accessories",
-      "price": 150,
-      "description": "Premium wireless headphones with noise cancellation.",
-      "specification": [
-        {"key": "Connectivity", "value": "Bluetooth 5.0"},
-        {"key": "Battery Life", "value": "20 hours"},
-        {"key": "Weight", "value": "250g"}
-      ],
-      "availability": true,
-      "rating": 4.6
-    },
-    {
-      "product_id": 10,
-      "product_title": "Gaming Mouse",
-      "product_image": "../src/assets/s24-ultra.jpg",
-      "category": "Accessories",
-      "price": 375,
-      "description": "A high-precision gaming mouse with customizable buttons.",
-      "specification": [
-        {"key": "DPI", "value": "16000"},
-        {"key": "Connectivity", "value": "Wired"},
-        {"key": "Buttons", "value": "8 programmable"}
-      ],
-      "availability": false,
-      "rating": 4.5
-    }
-  ]
-  
+  {
+    "product_id": 1,
+    "product_title": "Asus ROG Gaming Laptop",
+    "product_image": "https://i.ibb.co.com/5gc2n87t/Asus-ROG-Gaming-Laptop.png",
+    "category": "Laptops",
+    "price": 700,
+    "description": "A high-performance gaming laptop with a powerful GPU.",
+    "specification": [
+      {"key": "Processor", "value": "Intel i7"},
+      {"key": "RAM", "value": "16GB"},
+      {"key": "Storage", "value": "1TB SSD"}
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 2,
+    "product_title": "HP Elite Ultrabook Laptop",
+    "product_image": "https://i.ibb.co.com/XgTkvsj/HP-Elite-Ultrabook-Laptop.png",
+    "category": "Laptops",
+    "price": 350,
+    "description": "Lightweight and powerful ultrabook for professionals.",
+    "specification": [
+      {"key": "Processor", "value": "Intel i5"},
+      {"key": "RAM", "value": "8GB"},
+      {"key": "Storage", "value": "512GB SSD"}
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 3,
+    "product_title": "Dell Precision Desktop PC",
+    "product_image": "https://i.ibb.co.com/7dvZpHhF/Dell-Precision-Desktop-PC.jpg",
+    "category": "Laptops",
+    "price": 665,
+    "description": "A powerful desktop PC for work and gaming.",
+    "specification": [
+      {"key": "Processor", "value": "AMD Ryzen 5"},
+      {"key": "RAM", "value": "16GB"},
+      {"key": "Storage", "value": "1TB HDD + 256GB SSD"}
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 4,
+    "product_title": "Samsung Galaxy S24 Ultra",
+    "product_image": "https://i.ibb.co.com/Zzq0fr4J/s24-ultra.jpg",
+    "category": "Samsung",
+    "price": 999,
+    "description": "A flagship smartphone with cutting-edge features.",
+    "specification": [
+      {"key": "Display", "value": "6.7-inch OLED"},
+      {"key": "Camera", "value": "108MP"},
+      {"key": "Battery", "value": "4500mAh"}
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 5,
+    "product_title": "iPhone 15 Pro Max",
+    "product_image": "https://i.ibb.co.com/tVxy7hS/i-Phone-15-Pro-Max.jpg",
+    "category": "iPhones",
+    "price": 899,
+    "description": "Apple's latest flagship with the most powerful A17 chip.",
+    "specification": [
+      {"key": "Display", "value": "6.1-inch OLED"},
+      {"key": "Camera", "value": "48MP Triple Lens"},
+      {"key": "Battery", "value": "5000mAh"}
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 6,
+    "product_title": "Asus ZenBook Pro 14",
+    "product_image": "https://i.ibb.co.com/BVMk66X7/Asus-Zen-Book-Pro-14.png",
+    "category": "Laptops",
+    "price": 1600,
+    "description": "A sleek and powerful ultrabook with high-resolution display.",
+    "specification": [
+      {"key": "Processor", "value": "Intel i9"},
+      {"key": "RAM", "value": "32GB"},
+      {"key": "Storage", "value": "1TB SSD"}
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 7,
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://i.ibb.co.com/WNh86K4G/Apple-Watch-Series-9.jpg",
+    "category": "Smart Watches",
+    "price": 399,
+    "description": "A premium smartwatch with health tracking features.",
+    "specification": [
+      {"key": "Display", "value": "1.5-inch AMOLED"},
+      {"key": "Battery", "value": "3 days"},
+      {"key": "Features", "value": "Heart rate, SpO2, GPS"}
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 8,
+    "product_title": "Samsung Galaxy Watch 6",
+    "product_image": "https://i.ibb.co.com/5g9wBR0J/Samsung-Galaxy-Watch-6.jpg",
+    "category": "Smart Watches",
+    "price": 349,
+    "description": "A stylish and feature-rich smartwatch for Android users.",
+    "specification": [
+      {"key": "Display", "value": "1.4-inch Super AMOLED"},
+      {"key": "Battery", "value": "4 days"},
+      {"key": "Features", "value": "ECG, Sleep Tracking, GPS"}
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 9,
+    "product_title": "Samsung Galaxy Tab S9",
+    "product_image": "https://i.ibb.co.com/hFGjb6K0/Samsung-Galaxy-Tab-S9.jpg",
+    "category": "Samsung",
+    "price": 799,
+    "description": "A high-end tablet with a powerful display and S Pen support.",
+    "specification": [
+      {"key": "Display", "value": "11-inch AMOLED"},
+      {"key": "Storage", "value": "256GB"},
+      {"key": "Battery", "value": "8000mAh"}
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 10,
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://i.ibb.co.com/LX6khB3q/i-Phone-14-Pro.jpg",
+    "category": "iPhones",
+    "price": 599,
+    "description": "Apple's premium smartphone with Dynamic Island technology.",
+    "specification": [
+      {"key": "Display", "value": "6.1-inch OLED"},
+      {"key": "Camera", "value": "48MP Triple Lens"},
+      {"key": "Battery", "value": "4000mAh"}
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 11,
+    "product_title": "MacBook Air M2",
+    "product_image": "https://i.ibb.co.com/wZRnmJ81/Mac-Book-Air-M2.jpg",
+    "category": "Macbook",
+    "price": 1299,
+    "description": "A lightweight MacBook with Apple's M2 chip for ultra performance.",
+    "specification": [
+      {"key": "Processor", "value": "Apple M2"},
+      {"key": "RAM", "value": "8GB"},
+      {"key": "Storage", "value": "512GB SSD"}
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 12,
+    "product_title": "Samsung Wireless Charger Pad",
+    "product_image": "https://i.ibb.co.com/2Y17kMDs/Samsung-Wireless-Charger-Pad.jpg",
+    "category": "Accessories",
+    "price": 59,
+    "description": "A fast wireless charger pad compatible with Galaxy devices.",
+    "specification": [
+      {"key": "Power", "value": "15W"},
+      {"key": "Compatibility", "value": "Samsung Galaxy Series"}
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 13,
+    "product_title": "Apple MagSafe Charger",
+    "product_image": "https://i.ibb.co.com/rGg1vmdY/Apple-Mag-Safe-Charger.jpg",
+    "category": "Accessories",
+    "price": 79,
+    "description": "A magnetic charger designed for iPhones with MagSafe support.",
+    "specification": [
+      {"key": "Power", "value": "15W"},
+      {"key": "Compatibility", "value": "iPhone 12 and newer"}
+    ],
+    "availability": true,
+    "rating": 4.7
+  }
+]
