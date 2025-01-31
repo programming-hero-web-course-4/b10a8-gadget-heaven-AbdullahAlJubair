@@ -5,6 +5,7 @@ import { addToLSCart } from "../../utilities/utilities";
 import { useContext, useEffect, useState } from "react";
 import { AmountContext } from "../../Layouts/MainLayout/MainLayout";
 import { addToLSWishlist, getLSWishlistData } from "../../utilities/wishlist";
+import toast from "react-hot-toast";
 
 const CardDetails = ({ product }) => {
     const [amount, setAmount] = useContext(AmountContext);
@@ -18,12 +19,14 @@ const CardDetails = ({ product }) => {
     }, [])
 
     // Add to Cart Func
-    const handleAddToCart = (id, price) => {
-        if ((amount + price) > 1000) {
-            return alert('Max Amount Exceed');
+    const handleAddToCart = (id, newPrice) => {
+        if ((amount + newPrice) > 1000) {
+            // return alert('Max Amount Exceed');
+            return toast.error("You Can't Add More then $1000 on Your Single Order! ")
         } else {
             addToLSCart(id);
-            setAmount(amount + price);
+            setAmount(amount + newPrice);
+            
         }
     }
 
@@ -31,6 +34,7 @@ const CardDetails = ({ product }) => {
     const handleAddToWishlist = (id) => {
         addToLSWishlist(id);
         setWishlist(getLSWishlistData());
+        
     }
     return (
         <div className="flex flex-col lg:flex-row gap-8 p-3 md:p-8 m-2 md:m-8 bg-white rounded-2xl">
