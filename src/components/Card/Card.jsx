@@ -5,7 +5,7 @@ const Card = ({ data }) => {
 
     return (
         <div className="p-5 md:p-4 lg:p-6 bg-white rounded-2xl flex flex-col gap-y-4 lg:gap-y-6">
-            <div className="max-h-[190px] border border-base-300 rounded-xl overflow-hidden">
+            <div className="max-h-[250px] md:max-h-[190px] border border-base-300 rounded-xl overflow-hidden">
                 <img className="w-full h-full object-cover" src={product_image} alt="" />
             </div>
             <div className="space-y-1 lg:space-y-4 grow">
