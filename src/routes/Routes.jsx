@@ -1,13 +1,13 @@
 import { createBrowserRouter, Navigate, } from "react-router-dom";
 import MainLayout from "../Layouts/MainLayout/MainLayout";
 import Home from "../pages/Home/Home";
-import Statistics from "../pages/Statistics/Statistics";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import Cards from "../components/Cards/Cards";
 import ProductDetails from "../components/ProductDetails/ProductDetails";
 import MyCart from "../components/MyCart/MyCart";
 import MyWishList from "../components/MyWishList/MyWishList";
 import ErrorPage from "../components/ErrorPage/ErrorPage";
+import AboutUs from "../pages/AboutUs/AboutUs";
 
 
 const routes = createBrowserRouter([
@@ -34,8 +34,8 @@ const routes = createBrowserRouter([
         ]
       },
       {
-        path: "/statistics",
-        element: <Statistics />
+        path: "/about_us",
+        element: <AboutUs />
       },
       {
         path: "/dashboard",

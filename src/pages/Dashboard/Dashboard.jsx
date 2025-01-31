@@ -1,9 +1,14 @@
 import { NavLink, Outlet } from "react-router-dom";
 import PageHeader from "../../components/PageHeader/PageHeader";
+import { Helmet } from "react-helmet";
 
 const Dashboard = () => {
     return (
         <div>
+            <Helmet>
+                <title>Dashboard | Gadget Heaven</title>
+                <meta name="description" content="Helmet application" />
+            </Helmet>
             <div className="Accent pt-8 pb-8">
                 <PageHeader
                     title={'Dashboard'}

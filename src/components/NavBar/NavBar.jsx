@@ -26,7 +26,7 @@ const NavBar = () => {
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
                         <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to={'/'}> Home</NavLink>
-                        <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to={'/statistics'}> Statistics</NavLink>
+                        <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to={'/about_us'}> About Us</NavLink>
                         <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to={'/dashboard'}> Dashboard</NavLink>
                     </ul>
                 </div>
@@ -38,7 +38,7 @@ const NavBar = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className={`menu menu-horizontal px-1 gap-x-10 text-base ${pathName === '/' || pathName === '/category/Laptops' || pathName === '/category/Phones' || pathName === '/category/Accessories' || pathName === '/category/Smart%20Watches' || pathName === '/category/Macbook' || pathName === '/category/iPhones' ? 'text-white' : 'AccentText'}`}>
                     <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to={'/'}> Home</NavLink>
-                    <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to={'/statistics'}> Statistics</NavLink>
+                    <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to={'/about_us'}> About Us</NavLink>
                     <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to={'/dashboard'}> Dashboard</NavLink>
                 </ul>
             </div>
