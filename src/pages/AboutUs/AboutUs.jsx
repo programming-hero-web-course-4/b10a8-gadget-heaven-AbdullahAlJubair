@@ -1,11 +1,13 @@
 import { IoCall } from "react-icons/io5";
 import AboutBg from '../../assets/aboutBg.png'
 import AboutImg from '../../assets/aboutImg.png'
+import { Helmet } from "react-helmet";
+
 const AboutUs = () => {
     return (
         <>
             <Helmet>
-                <title>Dashboard | Gadget Heaven</title>
+                <title>About Us | Gadget Heaven</title>
                 <meta name="description" content="Helmet application" />
             </Helmet>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 items-center px-5 md:px-20 mt-10'>
