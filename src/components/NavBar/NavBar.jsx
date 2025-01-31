@@ -4,7 +4,7 @@ const NavBar = () => {
     const location = useLocation();
     const pathName = location.pathname;
     return (
-        <div className={`${pathName === '/' ? 'Accent' : 'bg-[#f6f6f6]'} navbar Sora py-5 px-2 md:px-5 lg:px-10`}>
+        <div className={`${pathName === '/' || pathName === '/category/Laptops' || pathName === '/category/Phones' || pathName === '/category/Accessories' || pathName === '/category/Smart%20Watches' || pathName === '/category/Macbook' || pathName === '/category/iPhones' ? 'Accent py-5' : 'bg-[#f6f6f6] py-1 md:py-5'} navbar Sora py-1 px-2 md:px-5 lg:px-10`}>
             {/* <div className="Accent navbar Sora py-5 px-2 md:px-5 lg:px-10"> */}
             <div className="navbar-start w-full">
                 <div className="dropdown">
@@ -31,12 +31,12 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="w-full">
-                    <Link to={'/'} className={`${pathName === '/' ? 'text-white' : 'AccentText'} text-lg md:text-xl font-semibold md:font-bold`}>Gadget Heaven</Link>
+                    <Link to={'/'} className={`${pathName === '/' || pathName === '/category/Laptops' || pathName === '/category/Phones' || pathName === '/category/Accessories' || pathName === '/category/Smart%20Watches' || pathName === '/category/Macbook' || pathName === '/category/iPhones' ? 'text-white' : 'AccentText'} text-lg md:text-xl font-semibold md:font-bold`}>Gadget Heaven</Link>
                 </div>
 
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className={`menu menu-horizontal px-1 gap-x-10 text-base ${pathName === '/' ? 'text-white' : 'AccentText'}`}>
+                <ul className={`menu menu-horizontal px-1 gap-x-10 text-base ${pathName === '/' || pathName === '/category/Laptops' || pathName === '/category/Phones' || pathName === '/category/Accessories' || pathName === '/category/Smart%20Watches' || pathName === '/category/Macbook' || pathName === '/category/iPhones' ? 'text-white' : 'AccentText'}`}>
                     <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to={'/'}> Home</NavLink>
                     <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to={'/statistics'}> Statistics</NavLink>
                     <NavLink className={({ isActive }) => isActive ? 'font-bold' : ''} to={'/dashboard'}> Dashboard</NavLink>

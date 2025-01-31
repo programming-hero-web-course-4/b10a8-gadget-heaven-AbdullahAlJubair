@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import NavBar from "../../components/NavBar/NavBar";
 import { createContext, useState } from "react";
+import Footer from "../../components/Footer/Footer";
 
 export const AmountContext = createContext();
 const MainLayout = () => {
@@ -13,9 +14,7 @@ const MainLayout = () => {
                     <Outlet></Outlet>
                 </AmountContext.Provider>
             </main>
-            <footer className="mt-48">
-
-            </footer>
+            <Footer></Footer>
         </>
     );
 };
